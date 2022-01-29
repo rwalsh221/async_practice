@@ -101,3 +101,36 @@ body {
   border: none;
   padding: 2rem;
 }
+
+.userName__container {
+  border: 2px solid black;
+  margin: 1rem 0;
+}
+
+.userName__container h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.userNameList {
+  list-style: none;
+
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.userNameList li {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0.5rem;
+  background-color: black;
+  color: gray;
+  padding: 2rem;
+  text-align: center;
+}
+
+.userNameList p {
+  margin: 0;
+}
